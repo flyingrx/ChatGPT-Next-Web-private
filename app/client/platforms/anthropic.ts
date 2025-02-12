@@ -191,7 +191,7 @@ export class ClaudeApi implements LLMApi {
       top_k: 5,
     };
 
-    const path = this.path(Anthropic.ChatPath);
+    const path = this.path(Anthropic.ChatPath1);
 
     const controller = new AbortController();
     options.onController?.(controller);
